@@ -1,0 +1,16 @@
+to control 6 axis arm
+BaseServo	controls rotating servo	3	SLIDER	X Axis	0	1.0	0.0
+FirstArm	controls first arm servo	3	SLIDER	Y Axis	0	1.0	0.0
+SecondArm	controls second arm servo	3	SLIDER	Y Rotation	0	1.0	0.0
+WristRotation	controls wrist rotation servo	3	SLIDER	X Rotation	0	1.0	0.0
+WristLinear	controls up and down motion of wrist	2	HAT	cooliehat: Hat Switch	0	1.0	0.0
+Gripper	controls gripper	3	SLIDER	Z Axis	0	1.0	0.1
+aButton	a	1	BUTTON	Button 0	0	0.0	0.0
+bButton	b	1	BUTTON	Button 1	0	0.0	0.0
+xButton	x	1	BUTTON	Button 2	0	0.0	0.0
+yButton	y	1	BUTTON	Button 3	0	0.0	0.0
+start	start	1	BUTTON	Button 7	0	0.0	0.0
+select	select	1	BUTTON	Button 6	0	0.0	0.0
+lClick	l thumb click	1	BUTTON	Button 8	0	0.0	0.0
+rClick	r thumb click	1	BUTTON	Button 9	0	0.0	0.0
+
